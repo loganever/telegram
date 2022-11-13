@@ -2,8 +2,10 @@
 https://core.telegram.org/api/obtaining_api_id
 # 安装依赖包
 pip3 install telethon
+
+pip3 install xlwt
 # 配置
-配置config.ini,输入用户名，api等，还有channel的链接或者id,最多找多少条聊天记录
+配置config.ini,输入用户名，api、channel的链接或者id、最多找多少条聊天记录、聊天记录保存路径
 # 运行代码
 python3 main.py
 
